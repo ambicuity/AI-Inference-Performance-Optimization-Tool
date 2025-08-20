@@ -1,0 +1,7 @@
+{
+  "throughput": 100.0,
+  "avg_latency": 0.05,
+  "p95_latency": 0.1,
+  "p99_latency": 0.2,
+  "max_acceptable_latency": 0.5
+}

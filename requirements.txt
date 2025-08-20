@@ -1,0 +1,22 @@
+# Core dependencies for AI inference profiling
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+psutil>=5.8.0
+click>=8.0.0
+pyyaml>=5.4.0
+tqdm>=4.60.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+
+# Optional GPU monitoring (install with --extra-index-url if needed)
+# pynvml>=11.0
+# gputil>=1.4
+
+# Development dependencies (install with pip install -e .[dev])
+# pytest>=6.0
+# pytest-cov>=2.0
+# black>=21.0
+# flake8>=3.8
+# mypy>=0.910

@@ -1,0 +1,12 @@
+{
+  "cpu_cores": 4,
+  "memory_gb": 16,
+  "gpu_available": false,
+  "gpu_memory_gb": 0,
+  "storage_type": "SSD",
+  "network_bandwidth_mbps": 1000,
+  "os": "Linux",
+  "python_version": "3.9",
+  "cpu_model": "Intel Core i5",
+  "architecture": "x86_64"
+}
