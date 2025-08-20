@@ -1,0 +1,18 @@
+# Example configuration file for comparing different inference configurations
+function_file: "examples/sample_inference.py"
+function_name: "simple_inference"
+warmup_runs: 5
+num_runs: 30
+
+configurations:
+  small_batch:
+    batch_size: 1
+  
+  medium_batch:
+    batch_size: 4
+    
+  large_batch:
+    batch_size: 8
+    
+  extra_large_batch:
+    batch_size: 16
